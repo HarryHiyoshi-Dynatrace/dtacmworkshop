@@ -77,9 +77,9 @@ fi
 
 echo "Cluster created"
 
-echo "Deploying OneAgent Operator"
+#echo "Deploying OneAgent Operator"
 
-../utils/deploy-dt-operator.sh
+#../utils/deploy-dt-operator.sh
 
 echo "Waiting for OneAgent to startup..."
 sleep 120
