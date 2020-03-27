@@ -89,8 +89,8 @@ echo "Deploying SockShop Application"
 
 sleep 120
 
-echo "Start Production Load"
-nohup ../utils/cartsLoadTest.sh &
+#echo "Start Production Load"
+#nohup ../utils/cartsLoadTest.sh &
 
 echo "Deployment Complete"
 
